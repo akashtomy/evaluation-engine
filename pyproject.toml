@@ -1,0 +1,11 @@
+[project]
+name = "evaluation-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "litellm>=1.104.0",
+    "pandas>=3.0.6",
+    "pydantic>=2.13.5",
+]
